@@ -1,3 +1,9 @@
+audiowaveform (1.0.6-1) stable; urgency=low
+
+  * Packaging for Debian
+
+ -- Matt Haynes <matt.haynes@bbc.co.uk>  Tue, 22 Jul 2014 17:10:00 +0000
+
 audiowaveform (1.0.2-0ubuntu2) saucy; urgency=low
 
   * Initial release
