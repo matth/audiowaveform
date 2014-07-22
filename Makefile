@@ -29,5 +29,5 @@ package-debian: package
 	mkdir -p $(PKGDIR)/$(PKGNAME)-$(RELEASE)
 	tar -C $(PKGDIR)/$(PKGNAME)-$(RELEASE) -xvzf $(PKGDIR)/$(PKGNAME).orig.tar.gz
 	cd $(PKGDIR)/$(PKGNAME)-$(RELEASE) && dpkg-buildpackage -S
-	cd $(PKGDIR)/ && sudo pbuilder --build --buildresult --distribution $(DIST) . $(PKGNAME)-$(RELEASE).dsc
+	cd $(PKGDIR)/ && sudo pbuilder --build --buildresult . --distribution $(DIST) $(PKGNAME)-$(RELEASE).dsc
 	cd $(PKGDIR) && lintian -i -I *.changes

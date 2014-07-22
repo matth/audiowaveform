@@ -2,4 +2,5 @@ build
 gmock
 gmock*.zip
 gmock-1.7.0
+pkg
 .vagrant
