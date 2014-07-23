@@ -1,6 +1,6 @@
-audiowaveform (1.0.6-1) stable; urgency=low
+audiowaveform (1.0.6-1) wheezy precise saucy; urgency=low
 
-  * Packaging for Debian
+  * Packaging for Debian (NMU)
 
  -- Matt Haynes <matt.haynes@bbc.co.uk>  Tue, 22 Jul 2014 17:10:00 +0000
 
